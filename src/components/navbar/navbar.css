@@ -1,0 +1,16 @@
+.kw-round-btn {
+    padding: 8px 20px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+}
+
+.kw-logo-text {
+    font-size: 16px;
+}
+
+.kw-logo-text-img {
+    max-width: 50;
+    height: auto;
+    vertical-align: middle;
+}

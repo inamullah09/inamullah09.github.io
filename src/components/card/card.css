@@ -1,0 +1,5 @@
+.card-container {
+    min-height: 230px;
+    box-shadow: 0 0 40px #044dac2f;
+    border-radius: 12px;
+}

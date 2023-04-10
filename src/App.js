@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import KWNavbar from './components/navbar/navbar';
+import { KWHero } from './components/hero/hero';
+import KWVideo from './components/video/video';
+import KWServices from './components/services/services';
+import KWPropertySection from './components/propertysection/propertysection';
+import KWFooter from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <KWNavbar/>
+        <KWHero/>
+        <KWVideo/>
+        <KWServices/>
+        <KWPropertySection/>
+        <KWFooter/>
     </div>
   );
 }
