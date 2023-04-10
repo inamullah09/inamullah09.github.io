@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import KWNavbar from './components/navbar/navbar';
 import { KWHero } from './components/hero/hero';
